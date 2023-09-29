@@ -1,0 +1,28 @@
+.custom-layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background-color: #001529;
+  box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35);
+  padding-top: 16px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px 24px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.sidebar a.active {
+  background-color: #1890ff;
+}
+
+.content {
+  flex-grow: 1;
+  background-color: #f0f2f5;
+}

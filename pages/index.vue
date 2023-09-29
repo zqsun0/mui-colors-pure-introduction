@@ -3,9 +3,12 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { Context } from '@nuxt/types'
 
-export default Vue.extend({
-  name: 'IndexPage',
-})
+export default {
+  middleware({ redirect }: Context) {
+    // 重定向到 /js 页面
+    redirect('/js')
+  },
+}
 </script>
