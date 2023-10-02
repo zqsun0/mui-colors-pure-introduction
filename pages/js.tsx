@@ -1,4 +1,5 @@
-import Vue, { Component } from 'vue';
+import Vue, { Component } from 'vue'
+import RedList from '~/components/RedList'
 
 const JSPage: Component = {
   layout: 'CustomLayout',
@@ -6,7 +7,7 @@ const JSPage: Component = {
     return (
       <div>
         <h1>JS Page</h1>
-        {/* The content of the JS page goes here */}
+        <RedList from="js" />
       </div>
     )
   },
