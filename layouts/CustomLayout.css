@@ -3,11 +3,12 @@
 }
 
 .sidebar {
-  width: 240px;
+  min-width: 240px;
   min-height: 100vh;
   background-color: #001529;
   box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35);
   padding-top: 16px;
+  position: fixed;
 }
 
 .sidebar a {
@@ -25,4 +26,5 @@
 .content {
   flex-grow: 1;
   background-color: #f0f2f5;
+  margin-left: 240px;
 }
